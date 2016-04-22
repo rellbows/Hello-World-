@@ -1,8 +1,14 @@
 <html>
 	<head>
 		<title>Hello World</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
+	
+		<ul id="header">
+			<li>This is the NAME GAME!!!</li>
+		</ul>
+	
 		<h1>
 			<?php
 				function isPresent($var) {

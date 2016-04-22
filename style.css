@@ -1,0 +1,30 @@
+body {
+
+margin: 0px;
+
+/*styling*/
+font-family: arial;
+color: red;
+
+}
+
+	#header {
+		/*positioning*/
+		display: inline-block;
+		float: left;
+		width: 1260px;
+		height: 50px;
+
+		/*styling*/
+		list-style-type: none;
+		background-color: black;
+	}
+
+		#header li {
+			/*positioning*/
+			text-align: left;
+			margin-top: 15px;
+
+			/*styling*/
+			color: white;
+		}
