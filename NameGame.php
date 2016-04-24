@@ -6,10 +6,10 @@
 	
 	<body>
 		<h1>Please enter you name below...</h1>
-			<form action="index.php" method="get">
-					First Name: <input type="text" name="firstname" /><br />
-					Last Name: <input type="text" name="lastname" /><br />
-					<input type="submit" />
-			</form>
+		<form action="index.php" method="get">
+		First Name: <input type="text" name="firstname" /><br />
+		Last Name: <input type="text" name="lastname" /><br />
+		<input type="submit" />
+		</form>
 	</body>
 </html>
