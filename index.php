@@ -13,7 +13,7 @@
 			<?php
 				function isPresent($var) {
 					return isset($var) && !empty($var);
-					}
+				}
 				if(isPresent($_GET['firstname']) && isPresent($_GET['lastname'])) {
 					echo "Hello " . $_GET['firstname'] . " " . $_GET['lastname'] . "!";
 				} else { 
